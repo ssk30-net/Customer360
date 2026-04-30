@@ -1,0 +1,6 @@
+# Local development and testing only
+# Databricks Free Edition (serverless) does not need this file
+# Install locally with: pip install -r requirements.txt
+
+faker==24.0.0
+pandas==2.2.0

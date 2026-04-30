@@ -1,0 +1,25 @@
+# ============================================================
+# FILE    : app.yaml
+# PURPOSE : Databricks Apps deployment config
+#           Tells Databricks how to start and configure the app
+# DEPLOY  : Workspace → Compute → Apps → Create → upload this
+# ============================================================
+
+command:
+  - "gunicorn"
+  - "--bind"
+  - "0.0.0.0:8050"
+  - "--workers"
+  - "2"
+  - "--timeout"
+  - "120"
+  - "app:server"
+
+env:
+  - name: DATABRICKS_HTTP_PATH
+    value: "/sql/1.0/warehouses/8380fd4f0ee511b5"
+    # Replace <your-warehouse-id> with your SQL Warehouse HTTP Path
+    # Find it: SQL Warehouses → your warehouse → Connection details → HTTP Path
+
+  - name: PYTHONPATH
+    value: "."

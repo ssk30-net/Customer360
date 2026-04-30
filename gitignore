@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data — never commit full datasets, only samples
+data/raw/
+data/processed/
+*.csv
+!data/sample/*.csv
+
+# Databricks
+.databricks/
+*.dbc
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

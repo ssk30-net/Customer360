@@ -1,0 +1,11 @@
+user_id,name,age,gender,signup_date,city,country,email,segment,is_active,pipeline_run_id
+D4B7626E,Priya Sharma,47,Female,2023-04-20,Delhi,India,priya.sharma@email.com,Standard,1,BOOTSTRAP_20240101_000000
+DA5BCD00,Rahul Mehta,30,Male,2023-05-24,Chennai,India,rahul.mehta@email.com,Premium,0,BOOTSTRAP_20240101_000000
+4843C27E,Anjali Nair,53,Male,2023-07-24,Hyderabad,India,anjali.nair@email.com,Standard,1,BOOTSTRAP_20240101_000000
+64B76F35,Vikram Patel,46,Male,2023-03-15,Delhi,India,vikram.patel@email.com,Basic,1,BOOTSTRAP_20240101_000000
+F41A9082,Divya Iyer,55,Male,2023-08-11,Chennai,India,divya.iyer@email.com,Premium,1,BOOTSTRAP_20240101_000000
+C18A1D11,Arjun Rao,22,Female,2023-04-12,Hyderabad,India,arjun.rao@email.com,Premium,1,BOOTSTRAP_20240101_000000
+3D3CE025,Sneha Kumar,55,Male,2023-10-15,Mumbai,India,sneha.kumar@email.com,Basic,1,BOOTSTRAP_20240101_000000
+F6C583DF,Kiran Joshi,35,Male,2023-12-26,Chennai,India,kiran.joshi@email.com,Standard,0,BOOTSTRAP_20240101_000000
+6387E263,Meena Das,33,Male,2023-02-01,Delhi,India,meena.das@email.com,Trial,0,BOOTSTRAP_20240101_000000
+5460070B,Suresh Reddy,48,Male,2023-07-21,Mumbai,India,suresh.reddy@email.com,Standard,1,BOOTSTRAP_20240101_000000

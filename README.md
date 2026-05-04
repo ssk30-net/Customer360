@@ -159,7 +159,15 @@ and support health.
 | `churn_reason` | Text explanation of why customer was flagged |
 
 ---
+## Dashboard screenshots
 
+### Power BI
+![Executive overview](docs/powerbi_dashboard.png)
+![Revenue trend](docs/powerbi_dashboard_p2.png)
+![Segments](docs/powerbi_dashboard_p3.png)
+
+### Databricks App
+Live at: https://customer360-app-7474651051509396.aws.databricksapps.com
 ## Interview summary
 
 > "I built a Customer 360 system on Databricks Free Edition using a Medallion
